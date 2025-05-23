@@ -16,3 +16,4 @@ C:\Users\cheta\OneDrive\Desktop\Dhanush\Computer Science WQE\NEA PROJECT\NEA Pro
 C:\Users\cheta\OneDrive\Desktop\Dhanush\Computer Science WQE\NEA PROJECT\NEA Project\Top Down Shooter\obj\Debug\Interop.WMPLib.dll
 C:\Users\cheta\OneDrive\Desktop\Dhanush\Computer Science WQE\NEA PROJECT\NEA Project\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.ResolveComReference.cache
 C:\Users\cheta\OneDrive\Desktop\Dhanush\Computer Science WQE\NEA PROJECT\NEA Project\Top Down Shooter\obj\Debug\Top Down Shooter.g.resources
+C:\Users\cheta\OneDrive\Desktop\Dhanush\Computer Science WQE\NEA PROJECT\NEA Project\Top Down Shooter\obj\Debug\Top Down Shooter.exe.config
