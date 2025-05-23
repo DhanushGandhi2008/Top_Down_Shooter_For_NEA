@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|c:\\users\\cheta\\onedrive\\desktop\\dhanush\\computer science wqe\\nea project\\nea project\\top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\top down shooter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|c:\\users\\cheta\\onedrive\\desktop\\dhanush\\computer science wqe\\nea project\\nea project\\top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\top down shooter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\Top Down Shooter\\Program.cs",
               "RelativeDocumentMoniker": "Top Down Shooter\\Program.cs",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\Top Down Shooter\\MainMenu.cs",
               "RelativeDocumentMoniker": "Top Down Shooter\\MainMenu.cs",
@@ -72,7 +72,8 @@
               "RelativeToolTip": "Top Down Shooter\\MainMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T14:21:21.556Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -85,17 +86,18 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T11:08:50.443Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\Top Down Shooter\\Form1.cs",
               "RelativeDocumentMoniker": "Top Down Shooter\\Form1.cs",
               "ToolTip": "C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\Top Down Shooter\\Form1.cs",
               "RelativeToolTip": "Top Down Shooter\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T13:04:04.91Z",
               "IsPinned": true,
@@ -103,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\Dhanush\\Computer Science WQE\\NEA PROJECT\\NEA Project\\Top Down Shooter\\Form1.cs",
               "RelativeDocumentMoniker": "Top Down Shooter\\Form1.cs",

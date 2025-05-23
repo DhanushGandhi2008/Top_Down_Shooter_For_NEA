@@ -37,6 +37,7 @@ namespace Top_Down_Shooter
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Welcome to the game! \n\nUse W, A, S, D or Arrow keys to move.\n\nPress Space to shoot.\n\nGood luck!");
 
         }          
 
