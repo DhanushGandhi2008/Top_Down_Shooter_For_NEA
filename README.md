@@ -1,0 +1,1 @@
+This is a top down shooter where the player will shoot enemies which home onto their player's location. As the game carries on, a wave tally will increase increasing the difficulty of the game. This will ensure the player is not bored or disengaged as they play the game 
