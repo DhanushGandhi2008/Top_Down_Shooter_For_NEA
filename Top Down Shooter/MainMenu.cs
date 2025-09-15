@@ -32,9 +32,6 @@ namespace Top_Down_Shooter
         private void label1_Click(object sender, EventArgs e)
         {
             Mouse_Hover(sender, e);
-            WindowsMediaPlayer windowsMediaPlayer = new WindowsMediaPlayer();
-            windowsMediaPlayer.URL = "C:\\Use\\cheta\\OneDrive\\Deskt\\Dhanush\\Music\\Sad trumpet Sound effect.mp3";
-            windowsMediaPlayer.controls.play();
             this.Hide();
             Form Form1 = new Level1();
             Form1.ShowDialog();
