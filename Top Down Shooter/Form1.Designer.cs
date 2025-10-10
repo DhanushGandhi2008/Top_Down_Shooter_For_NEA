@@ -79,7 +79,7 @@
             this.Shooter_User.Image = global::Top_Down_Shooter.Properties.Resources.Shooter_Guy_Up;
             this.Shooter_User.Location = new System.Drawing.Point(685, 359);
             this.Shooter_User.Name = "Shooter_User";
-            this.Shooter_User.Size = new System.Drawing.Size(103, 94);
+            this.Shooter_User.Size = new System.Drawing.Size(133, 112);
             this.Shooter_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Shooter_User.TabIndex = 4;
             this.Shooter_User.TabStop = false;
