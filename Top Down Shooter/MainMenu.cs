@@ -17,6 +17,8 @@ namespace Top_Down_Shooter
         public MainMenu()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
@@ -44,12 +46,12 @@ namespace Top_Down_Shooter
 
         private void Mouse_Hover(object sender, EventArgs e)
         {
-            BackColor = Color.Blue;
+            this.BackColor = Color.Blue;
         }
 
         private void Mouse_Enter(object sender, EventArgs e)
         {
-            BackColor = Color.Blue;
+            this.BackColor = Color.Blue;
 
         }
     }

@@ -12,7 +12,7 @@ using System.Media;
 namespace Top_Down_Shooter
 {
     public partial class Level1 : Form
-    {
+    {   //lists all the key variables needed in the levels
         bool Go_left;
         bool Go_right;
         bool Go_up;
@@ -25,7 +25,7 @@ namespace Top_Down_Shooter
         int Kills = 0;
         string txtKills;
         int waves;
-        Random randnum = new Random();
+        Random randnum = new Random();//will randomise the interval between each zombie spawn
 
         List<PictureBox> EnemyList = new List<PictureBox>();
         
@@ -33,11 +33,13 @@ namespace Top_Down_Shooter
         public Level1()
         {
             InitializeComponent();
-        }
 
+            this.WindowState = FormWindowState.Maximized;
+        }
+        //loads up the Level screen
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome to the game! \n\nUse W, A, S, D or Arrow keys to move.\n\nPress Space to shoot.\n\nGood luck!");
+            MessageBox.Show("Welcome to the game! \n\nUse arrow keys to move.\n\nPress Space to shoot.\n\nGood luck!");
 
         }          
 
@@ -63,7 +65,7 @@ namespace Top_Down_Shooter
 
         private void MainGameTimer_Tick(object sender, EventArgs e)
         {
-            if (PlayerHealth > 1)
+            if (PlayerHealth > 1) //carries on the game until the player is dead (health =  0)
             {
                 progressBar1.Value = PlayerHealth;
             }
@@ -76,9 +78,11 @@ namespace Top_Down_Shooter
                 MeinMenu.ShowDialog();
 
             }
+            //changes the number next to kills and waves on the Form1.cs [Design]
             label1.Text = "Kills: " + Kills;
             Wave_Number.Text = "Wave(s): " + waves;
 
+            //makes sure character doesnt go out of the screen
             if (Go_left && Shooter_User.Left > 0)
             {
                 Shooter_User.Left -= Speed_Of_Player;
@@ -98,9 +102,10 @@ namespace Top_Down_Shooter
 
         }
 
+        //manages player movement
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D)
+            if (e.KeyCode == Keys.Right)
             {
                 Go_right = true;
                 facing = "right";
@@ -108,7 +113,7 @@ namespace Top_Down_Shooter
             }
 
 
-            if (e.KeyCode == Keys.Down || e.KeyCode == Keys.S)
+            if (e.KeyCode == Keys.Down)
             {
                 Go_down = true;
                 facing = "down";
@@ -116,7 +121,7 @@ namespace Top_Down_Shooter
             }
 
 
-            if (e.KeyCode == Keys.Left || e.KeyCode == Keys.A)
+            if (e.KeyCode == Keys.Left)
             {
                 Go_left = true;
                 facing = "left";
@@ -124,7 +129,7 @@ namespace Top_Down_Shooter
             }
 
 
-            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.W)
+            if (e.KeyCode == Keys.Up)
             {
                 Go_up = true;
                 facing = "up";
@@ -134,11 +139,12 @@ namespace Top_Down_Shooter
 
         }
 
+        //allows the game to know when a key isnt pressed so the character doesnt continuously go in one direction even if the key is released
         private void KeyIsUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Right)
             {
-                Go_right = false;
+                Go_right = false;              
                
             }
 

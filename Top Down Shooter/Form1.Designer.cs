@@ -43,10 +43,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.label1.Font = new System.Drawing.Font("Algerian", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 12);
+            this.label1.Font = new System.Drawing.Font("Algerian", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(251, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 39);
+            this.label1.Size = new System.Drawing.Size(210, 54);
             this.label1.TabIndex = 1;
             this.label1.Text = "Kills: 0";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -56,17 +56,17 @@
             this.HealthLabel.AutoSize = true;
             this.HealthLabel.BackColor = System.Drawing.Color.Transparent;
             this.HealthLabel.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.HealthLabel.Font = new System.Drawing.Font("Algerian", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HealthLabel.Location = new System.Drawing.Point(419, 9);
+            this.HealthLabel.Font = new System.Drawing.Font("Algerian", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HealthLabel.Location = new System.Drawing.Point(996, 16);
             this.HealthLabel.Name = "HealthLabel";
-            this.HealthLabel.Size = new System.Drawing.Size(154, 39);
+            this.HealthLabel.Size = new System.Drawing.Size(209, 54);
             this.HealthLabel.TabIndex = 2;
             this.HealthLabel.Text = "Health";
             this.HealthLabel.Click += new System.EventHandler(this.HealthLabel_Click);
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(589, 12);
+            this.progressBar1.Location = new System.Drawing.Point(1221, 16);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(199, 35);
             this.progressBar1.TabIndex = 3;
@@ -77,7 +77,7 @@
             // 
             this.Shooter_User.BackColor = System.Drawing.Color.Transparent;
             this.Shooter_User.Image = global::Top_Down_Shooter.Properties.Resources.Shooter_Guy_Up;
-            this.Shooter_User.Location = new System.Drawing.Point(340, 333);
+            this.Shooter_User.Location = new System.Drawing.Point(685, 359);
             this.Shooter_User.Name = "Shooter_User";
             this.Shooter_User.Size = new System.Drawing.Size(103, 94);
             this.Shooter_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -95,10 +95,10 @@
             // 
             this.Wave_Number.AutoSize = true;
             this.Wave_Number.BackColor = System.Drawing.Color.Transparent;
-            this.Wave_Number.Font = new System.Drawing.Font("Algerian", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Wave_Number.Location = new System.Drawing.Point(220, 12);
+            this.Wave_Number.Font = new System.Drawing.Font("Algerian", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Wave_Number.Location = new System.Drawing.Point(583, 16);
             this.Wave_Number.Name = "Wave_Number";
-            this.Wave_Number.Size = new System.Drawing.Size(187, 32);
+            this.Wave_Number.Size = new System.Drawing.Size(302, 54);
             this.Wave_Number.TabIndex = 5;
             this.Wave_Number.Text = "Wave(s):  0";
             this.Wave_Number.Click += new System.EventHandler(this.Wave_Number_Click);
@@ -109,7 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.BackgroundImage = global::Top_Down_Shooter.Properties.Resources.Pixel_Art_Sand1;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1449, 709);
             this.Controls.Add(this.Wave_Number);
             this.Controls.Add(this.Shooter_User);
             this.Controls.Add(this.progressBar1);

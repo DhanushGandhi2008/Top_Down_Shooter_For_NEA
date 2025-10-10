@@ -41,7 +41,7 @@
             this.Game_Title.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Game_Title.Font = new System.Drawing.Font("Snap ITC", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Game_Title.ForeColor = System.Drawing.Color.Red;
-            this.Game_Title.Location = new System.Drawing.Point(354, 29);
+            this.Game_Title.Location = new System.Drawing.Point(666, 23);
             this.Game_Title.Name = "Game_Title";
             this.Game_Title.Size = new System.Drawing.Size(539, 84);
             this.Game_Title.TabIndex = 0;
@@ -56,7 +56,7 @@
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Snap ITC", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(517, 253);
+            this.label1.Location = new System.Drawing.Point(797, 354);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(280, 50);
             this.label1.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.Leaderboard_viewer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Leaderboard_viewer.Font = new System.Drawing.Font("Snap ITC", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Leaderboard_viewer.ForeColor = System.Drawing.Color.DarkRed;
-            this.Leaderboard_viewer.Location = new System.Drawing.Point(473, 374);
+            this.Leaderboard_viewer.Location = new System.Drawing.Point(739, 558);
             this.Leaderboard_viewer.Name = "Leaderboard_viewer";
             this.Leaderboard_viewer.Size = new System.Drawing.Size(390, 50);
             this.Leaderboard_viewer.TabIndex = 2;
@@ -86,7 +86,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Top_Down_Shooter.Properties.Resources.Title_Screen_image1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1356, 662);
+            this.ClientSize = new System.Drawing.Size(1454, 802);
             this.Controls.Add(this.Leaderboard_viewer);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Game_Title);
