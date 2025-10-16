@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Top Down Shooter", "Top Down Shooter\Top Down Shooter.csproj", "{553A3010-4661-47D1-9CC3-2540BE02347F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Settings menu", "Settings menu\Settings menu.csproj", "{2B37AB91-D7A3-4225-B7F8-472482A24AD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{553A3010-4661-47D1-9CC3-2540BE02347F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{553A3010-4661-47D1-9CC3-2540BE02347F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{553A3010-4661-47D1-9CC3-2540BE02347F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B37AB91-D7A3-4225-B7F8-472482A24AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B37AB91-D7A3-4225-B7F8-472482A24AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B37AB91-D7A3-4225-B7F8-472482A24AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B37AB91-D7A3-4225-B7F8-472482A24AD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D61F6F6D-20F8-4A7F-9894-16CD9F8DAD45}
 	EndGlobalSection
 EndGlobal

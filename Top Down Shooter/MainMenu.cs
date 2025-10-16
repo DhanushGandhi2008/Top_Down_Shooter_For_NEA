@@ -54,5 +54,13 @@ namespace Top_Down_Shooter
             this.BackColor = Color.Blue;
 
         }
+
+        private void Settings_Label_Click(object sender, EventArgs e)
+        {
+           
+
+        }
     }
+
+    
 }
