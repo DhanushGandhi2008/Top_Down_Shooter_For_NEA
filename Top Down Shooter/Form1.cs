@@ -20,8 +20,8 @@ namespace Top_Down_Shooter
         bool isGameOver = false;
         string facing = "up";
         int PlayerHealth = 100;
-        int Speed_Of_Player = 30;
-        int Speead_Of_Enemy = 40;
+        int Speed_Of_Player = 60;
+        int Speead_Of_Enemy = 90;
         int Kills = 0;
         string txtKills;
         int waves;
