@@ -106,7 +106,7 @@ namespace Top_Down_Shooter
         //manages player movement
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Right)
+            if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D)
             {
                 Go_right = true;
                 facing = "right";
@@ -114,7 +114,7 @@ namespace Top_Down_Shooter
             }
 
 
-            if (e.KeyCode == Keys.Down)
+            if (e.KeyCode == Keys.Down || e.KeyCode == Keys.S)
             {
                 Go_down = true;
                 facing = "down";
@@ -122,7 +122,7 @@ namespace Top_Down_Shooter
             }
 
 
-            if (e.KeyCode == Keys.Left)
+            if (e.KeyCode == Keys.Left || e.KeyCode == Keys.A)
             {
                 Go_left = true;
                 facing = "left";
@@ -130,7 +130,7 @@ namespace Top_Down_Shooter
             }
 
 
-            if (e.KeyCode == Keys.Up)
+            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.W)
             {
                 Go_up = true;
                 facing = "up";
@@ -143,28 +143,28 @@ namespace Top_Down_Shooter
         //allows the game to know when a key isnt pressed so the character doesnt continuously go in one direction even if the key is released
         private void KeyIsUp(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Right)
+            if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D)
             {
                 Go_right = false;              
                
             }
 
 
-            if (e.KeyCode == Keys.Down)
+            if (e.KeyCode == Keys.Down || e.KeyCode == Keys.S)
             {
                 Go_down = false;
                
             }
 
 
-            if (e.KeyCode == Keys.Left)
+            if (e.KeyCode == Keys.Left || e.KeyCode == Keys.A)
             {
                 Go_left = false;
                
             }
 
 
-            if (e.KeyCode == Keys.Up)
+            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.W)
             {
                 Go_up = false;
                
