@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Runtime.InteropServices;
 
 namespace Top_Down_Shooter
 {
@@ -25,6 +26,7 @@ namespace Top_Down_Shooter
         int Kills = 0;
         string txtKills;
         int waves;
+        
         Random randnum = new Random();//will randomise the interval between each zombie spawn
 
         List<PictureBox> EnemyList = new List<PictureBox>();
@@ -99,8 +101,7 @@ namespace Top_Down_Shooter
             {
                 Shooter_User.Top += Speed_Of_Player;
             }
-
-        }
+            }
 
         //manages player movement
         private void KeyIsDown(object sender, KeyEventArgs e)

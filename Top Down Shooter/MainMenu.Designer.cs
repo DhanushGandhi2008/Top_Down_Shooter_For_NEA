@@ -94,7 +94,7 @@
             this.Settings_Label.Size = new System.Drawing.Size(217, 50);
             this.Settings_Label.TabIndex = 3;
             this.Settings_Label.Text = "Settings";
-            this.Settings_Label.Click += new System.EventHandler(this.Settings_Label_Click);
+       
             // 
             // MainMenu
             // 
