@@ -159,7 +159,7 @@ namespace Top_Down_Shooter
 
             if (e.KeyCode == Keys.Left || e.KeyCode == Keys.A)
             {
-                Go_left = false;
+                Go_left = false; 
                
             }
 
