@@ -57,7 +57,9 @@ namespace Top_Down_Shooter
 
         private void Settings_Label_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form Form2 = new Settings_Menu();
+            Form2.ShowDialog();
         }
     }
 

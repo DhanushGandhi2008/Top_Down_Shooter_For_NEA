@@ -54,3 +54,4 @@ C:\Users\cheta\source\repos\DhanushGandhi2008\Top_Down_Shooter_For_NEA\Top Down 
 C:\Users\cheta\source\repos\DhanushGandhi2008\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.CoreCompileInputs.cache
 C:\Users\cheta\source\repos\DhanushGandhi2008\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.exe
 C:\Users\cheta\source\repos\DhanushGandhi2008\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.pdb
+C:\Users\240909\Source\Repos\DhanushGandhi2008\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top_Down_Shooter.Settings_Menu.resources

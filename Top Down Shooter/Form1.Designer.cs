@@ -109,7 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.BackgroundImage = global::Top_Down_Shooter.Properties.Resources.Pixel_Art_Sand1;
-            this.ClientSize = new System.Drawing.Size(1449, 709);
+            this.ClientSize = new System.Drawing.Size(1482, 722);
             this.Controls.Add(this.Wave_Number);
             this.Controls.Add(this.Shooter_User);
             this.Controls.Add(this.progressBar1);

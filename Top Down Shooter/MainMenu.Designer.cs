@@ -102,7 +102,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Top_Down_Shooter.Properties.Resources.Title_Screen_image1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1454, 802);
+            this.ClientSize = new System.Drawing.Size(1483, 805);
             this.Controls.Add(this.Settings_Label);
             this.Controls.Add(this.Leaderboard_viewer);
             this.Controls.Add(this.label1);
