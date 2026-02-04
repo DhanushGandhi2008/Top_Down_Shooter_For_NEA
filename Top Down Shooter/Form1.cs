@@ -88,10 +88,42 @@ namespace Top_Down_Shooter
             if (Go_left && Shooter_User.Left > 0)
             {
                 Shooter_User.Left -= Speed_Of_Player;
+                if (Shooter_User.Bounds.IntersectsWith(label1.Bounds))
+                {
+                    Shooter_User.Top += Speed_Of_Player;
+                }
+                if (Shooter_User.Bounds.IntersectsWith(HealthLabel.Bounds))
+                {
+                    Shooter_User.Top += Speed_Of_Player;
+                }
+                if (Shooter_User.Bounds.IntersectsWith(Wave_Number.Bounds))
+                {
+                    Shooter_User.Top += Speed_Of_Player;
+                }
+                if (Shooter_User.Bounds.IntersectsWith(progressBar1.Bounds))
+                {
+                    Shooter_User.Top += Speed_Of_Player;
+                }
             }
             if (Go_right && Shooter_User.Left + Shooter_User.Width < this.ClientSize.Width)
             {
                 Shooter_User.Left += Speed_Of_Player;
+                if (Shooter_User.Bounds.IntersectsWith(label1.Bounds))
+                {
+                    Shooter_User.Top += Speed_Of_Player;
+                }
+                if (Shooter_User.Bounds.IntersectsWith(HealthLabel.Bounds))
+                {
+                    Shooter_User.Top += Speed_Of_Player;
+                }
+                if (Shooter_User.Bounds.IntersectsWith(Wave_Number.Bounds))
+                {
+                    Shooter_User.Top += Speed_Of_Player;
+                }
+                if (Shooter_User.Bounds.IntersectsWith(progressBar1.Bounds))
+                {
+                    Shooter_User.Top += Speed_Of_Player;
+                }
             }
             if (Go_up && Shooter_User.Top > 0)
             {

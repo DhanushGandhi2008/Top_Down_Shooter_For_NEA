@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\",
+  "WorkspaceRootPath": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|c:\\users\\cheta\\source\\repos\\dhanushgandhi2008\\top_down_shooter_for_nea\\top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|c:\\users\\cheta\\onedrive\\desktop\\repos\\top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B37AB91-D7A3-4225-B7F8-472482A24AD5}|Settings menu\\Settings menu.csproj|C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\settings menu\\settings menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2B37AB91-D7A3-4225-B7F8-472482A24AD5}|Settings menu\\Settings menu.csproj|solutionrelative:settings menu\\settings menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B37AB91-D7A3-4225-B7F8-472482A24AD5}|Settings menu\\Settings menu.csproj|C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\settings menu\\settings menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B37AB91-D7A3-4225-B7F8-472482A24AD5}|Settings menu\\Settings menu.csproj|solutionrelative:settings menu\\settings menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\top down shooter\\settings_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\settings_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\top down shooter\\settings_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\settings_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\top down shooter\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{553A3010-4661-47D1-9CC3-2540BE02347F}|Top Down Shooter\\Top Down Shooter.csproj|solutionrelative:top down shooter\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,59 +38,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 340,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Top Down Shooter\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\MainMenu.cs [Design]",
-              "RelativeToolTip": "Top Down Shooter\\MainMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:21:21.556Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\Form1.cs",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\Form1.cs",
               "RelativeDocumentMoniker": "Top Down Shooter\\Form1.cs",
-              "ToolTip": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\Form1.cs [Design]*",
-              "RelativeToolTip": "Top Down Shooter\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\Form1.cs",
+              "RelativeToolTip": "Top Down Shooter\\Form1.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwGkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:03:56.071Z",
+              "WhenOpened": "2025-12-05T14:26:45.315Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\MainMenu.cs",
               "RelativeDocumentMoniker": "Top Down Shooter\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\MainMenu.cs",
               "RelativeToolTip": "Top Down Shooter\\MainMenu.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T11:08:50.443Z",
-              "IsPinned": true
+              "WhenOpened": "2025-12-05T14:26:16.311Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\Form1.cs",
-              "RelativeDocumentMoniker": "Top Down Shooter\\Form1.cs",
-              "ToolTip": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\Form1.cs*",
-              "RelativeToolTip": "Top Down Shooter\\Form1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Top Down Shooter\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\MainMenu.cs [Design]",
+              "RelativeToolTip": "Top Down Shooter\\MainMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:04:04.91Z",
+              "WhenOpened": "2025-12-05T14:26:03.583Z",
               "IsPinned": true,
-              "EditorCaption": ""
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\Form1.cs",
+              "RelativeDocumentMoniker": "Top Down Shooter\\Form1.cs",
+              "ToolTip": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\Form1.cs [Design]",
+              "RelativeToolTip": "Top Down Shooter\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:26:03.415Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -101,31 +111,43 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Settings Menu.cs",
-              "DocumentMoniker": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Settings menu\\Settings Menu.cs",
-              "RelativeDocumentMoniker": "Settings menu\\Settings Menu.cs",
-              "ToolTip": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Settings menu\\Settings Menu.cs",
-              "RelativeToolTip": "Settings menu\\Settings Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:50:45.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Settings Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Settings menu\\Settings Menu.cs",
-              "RelativeDocumentMoniker": "Settings menu\\Settings Menu.cs",
-              "ToolTip": "C:\\Users\\cheta\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Settings menu\\Settings Menu.cs [Design]",
-              "RelativeToolTip": "Settings menu\\Settings Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T22:50:15.471Z"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings_Menu.cs",
+              "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\Settings_Menu.cs",
+              "RelativeDocumentMoniker": "Top Down Shooter\\Settings_Menu.cs",
+              "ToolTip": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\Settings_Menu.cs",
+              "RelativeToolTip": "Top Down Shooter\\Settings_Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T13:52:59.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\Settings_Menu.cs",
+              "RelativeDocumentMoniker": "Top Down Shooter\\Settings_Menu.cs",
+              "ToolTip": "C:\\Users\\240909\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\Settings_Menu.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\240909\\source\\repos\\DhanushGandhi2008\\Top_Down_Shooter_For_NEA\\Top Down Shooter\\Settings_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T13:48:57.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TextFile1.txt",
+              "DocumentMoniker": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\TextFile1.txt",
+              "RelativeDocumentMoniker": "Top Down Shooter\\TextFile1.txt",
+              "ToolTip": "C:\\Users\\cheta\\OneDrive\\Desktop\\repos\\Top Down Shooter\\TextFile1.txt",
+              "RelativeToolTip": "Top Down Shooter\\TextFile1.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-16T09:35:26.609Z"
             }
           ]
         },

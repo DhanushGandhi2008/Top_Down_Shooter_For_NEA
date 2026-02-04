@@ -18,7 +18,7 @@ namespace Top_Down_Shooter
         {
             InitializeComponent();
 
-            this.WindowState = FormWindowState.Maximized;
+            this.WindowState = FormWindowState.Maximized; //makes the screen fullscreen when the MainMenu loads up
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
@@ -33,9 +33,9 @@ namespace Top_Down_Shooter
 
         private void label1_Click(object sender, EventArgs e)
         {
-            Mouse_Hover(sender, e);
+            Mouse_Hover(sender, e); //makes the label change colour when hovered over
             this.Hide();
-            Form Form1 = new Level1();
+            Form Form1 = new Level1(); //loads up the Level1 form when the Start Game label is clicked
             Form1.ShowDialog();
         }
 
@@ -57,8 +57,10 @@ namespace Top_Down_Shooter
 
         private void Settings_Label_Click(object sender, EventArgs e)
         {
+            Mouse_Hover(sender, e);
             this.Hide();
-            Form Form2 = new Settings_Menu();
+            this.Hide();
+            Form Form2 = new Settings_Menu(); //loads up the Settings_Menu form when the Settings label is clicked
             Form2.ShowDialog();
         }
     }
