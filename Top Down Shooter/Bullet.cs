@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Drawing.Text;
+using System.IO;
 
 namespace Top_Down_Shooter
 { //creating a bullet class to manage the bullets being fired by the player
@@ -22,9 +23,9 @@ namespace Top_Down_Shooter
 
         //method to make the bullet appear on the form
         public void Make_Bullet(Form form) 
-        { 
-            bullet.BackColor = Color.White;
-            bullet.Size = new Size(5, 5);
+        {
+            bullet.Image = Properties.Resources.Bullet_left;
+            bullet.Size = new Size(20, 20);
             bullet.Tag = "bullet";  
             bullet.Left = bullet_left;
             bullet.Top = bullet_top;
