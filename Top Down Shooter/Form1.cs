@@ -84,7 +84,9 @@ namespace Top_Down_Shooter
             label1.Text = "Kills: " + Kills;
             Wave_Number.Text = "Wave(s): " + waves;
 
-            //makes sure character doesnt go out of the screen
+            //makes sure character doesnt go out of the screen - the blocks within the if statements make it so
+            //the character won't go through the labels
+
             if (Go_left && Shooter_User.Left > 0)
             {
                 Shooter_User.Left -= Speed_Of_Player;
@@ -123,6 +125,7 @@ namespace Top_Down_Shooter
                 if (Shooter_User.Bounds.IntersectsWith(progressBar1.Bounds))
                 {
                     Shooter_User.Top += Speed_Of_Player;
+
                 }
             }
             if (Go_up && Shooter_User.Top > 0)
@@ -149,7 +152,7 @@ namespace Top_Down_Shooter
             {
                 Shooter_User.Top += Speed_Of_Player;
             }
-            }
+        }
 
         //manages player movement
         private void KeyIsDown(object sender, KeyEventArgs e)

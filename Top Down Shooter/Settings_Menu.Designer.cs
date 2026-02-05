@@ -67,7 +67,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Top_Down_Shooter.Properties.Resources.Title_Screen_image1;
-            this.ClientSize = new System.Drawing.Size(1481, 803);
+            this.ClientSize = new System.Drawing.Size(1664, 817);
             this.Controls.Add(this.Toggle_Blood);
             this.Controls.Add(this.Back_To_Main);
             this.Name = "Settings_Menu";
