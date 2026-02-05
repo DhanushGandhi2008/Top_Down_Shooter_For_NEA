@@ -21,8 +21,8 @@ namespace Top_Down_Shooter
         bool isGameOver = false;
         string facing = "up";
         int PlayerHealth = 100;
-        int Speed_Of_Player = 60;
-        int Speead_Of_Enemy = 90;
+        int Speed_Of_Player = 100;
+        int Speead_Of_Enemy = 110;
         int Kills = 0;
         string txtKills;
         int waves;
@@ -234,9 +234,11 @@ namespace Top_Down_Shooter
 
         private void Shoot(string direction)
         {
-
-
-
+            Bullet shoot = new Bullet(); //creates bullet object when the player shoots
+            shoot.direction = direction; //shoots bullet in direction player is facing
+            shoot.bullet_left = Shooter_User.Left + (Shooter_User.Width / 2); //ensures bullet comes out of the player's middle
+            shoot.bullet_top = Shooter_User.Top + (Shooter_User.Height / 2);// same thing as the previous line of code
+            shoot.Make_Bullet(this); //mgrabs bullet from bullet class and uses it in this form (Level1.cs)
         }
 
         private void Enemy_Creation()

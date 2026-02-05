@@ -209,6 +209,23 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Bullet left.png" />
+    <Content Include="Resources\resources\Enemy Down.png" />
+    <Content Include="Resources\resources\Enemy Left.png" />
+    <Content Include="Resources\resources\Enemy Right.png" />
+    <Content Include="Resources\resources\Enemy Up.png" />
+    <Content Include="Resources\resources\Pixel Art Grass different.jpg" />
+    <Content Include="Resources\resources\Pixel Art Grass.jpg" />
+    <Content Include="Resources\resources\Pixel Art Sand.jpg" />
+    <Content Include="Resources\resources\Pixel Art Sand1.jpg" />
+    <Content Include="Resources\resources\Shooter Guy Down.png" />
+    <Content Include="Resources\resources\Shooter Guy Left.png" />
+    <Content Include="Resources\resources\Shooter Guy Right.png" />
+    <Content Include="Resources\resources\Shooter Guy Up.png" />
+    <Content Include="Resources\resources\skeleton-attack_0.png" />
+    <Content Include="Resources\resources\survivor-idle_rifle_0.png" />
+    <Content Include="Resources\resources\Title Screen image.png" />
+    <Content Include="Resources\resources\Title Screen image1.png" />
     <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

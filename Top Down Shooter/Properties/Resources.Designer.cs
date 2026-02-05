@@ -63,6 +63,16 @@ namespace Top_Down_Shooter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bullet_left {
+            get {
+                object obj = ResourceManager.GetObject("Bullet left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Enemy_Down {
             get {
                 object obj = ResourceManager.GetObject("Enemy Down", resourceCulture);
