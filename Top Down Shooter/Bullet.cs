@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Drawing;
 using System.Windows.Forms;
 using System.Drawing.Text;
 using System.IO;
@@ -24,8 +23,12 @@ namespace Top_Down_Shooter
         //method to make the bullet appear on the form
         public void Make_Bullet(Form form) 
         {
-            bullet.Image = Properties.Resources.Bullet_left;
-            bullet.Size = new Size(20, 20);
+
+            string bulletIMG = "Bullet left.png";
+
+            bullet.Image = bulletIMG == "Bullet left.png" ? Properties.Resources.Bullet_left : Properties.Resources.Bullet_left; //sets the bullet image based on the direction the player is facing
+            bullet.Text = bulletIMG;
+            bullet.SizeMode = PictureBoxSizeMode.AutoSize;
             bullet.Tag = "bullet";  
             bullet.Left = bullet_left;
             bullet.Top = bullet_top;
