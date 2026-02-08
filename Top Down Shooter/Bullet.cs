@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
+using System.Drawing;
 using System.IO;
 
 namespace Top_Down_Shooter
@@ -26,7 +27,7 @@ namespace Top_Down_Shooter
 
             string bulletIMG = "Bullet left.png";
 
-            bullet.Image = bulletIMG == "Bullet left.png" ? Properties.Resources.Bullet_left : Properties.Resources.Bullet_left; //sets the bullet image based on the direction the player is facing
+            bullet.Image = Properties.Resources.Bullet_left; //sets the bullet image to the original planned png 
             bullet.Text = bulletIMG;
             bullet.SizeMode = PictureBoxSizeMode.AutoSize;
             bullet.Tag = "bullet";  

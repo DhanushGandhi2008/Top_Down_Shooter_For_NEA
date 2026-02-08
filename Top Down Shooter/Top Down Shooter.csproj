@@ -67,6 +67,7 @@
     <Compile Include="Settings_Menu.Designer.cs">
       <DependentUpon>Settings_Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="SizeMode.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,7 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Bullet Right.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CustomToolNamespace>BulletRight</CustomToolNamespace>
     </Resource>
     <Resource Include="Resources\Bullet left.png">

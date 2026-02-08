@@ -37,6 +37,7 @@ namespace Top_Down_Shooter
             InitializeComponent();
 
             this.WindowState = FormWindowState.Maximized;
+            ResetGame();
         }
         //loads up the Level screen
         private void Form1_Load(object sender, EventArgs e)
@@ -74,10 +75,11 @@ namespace Top_Down_Shooter
             else
             {
                 isGameOver = true;
+                MessageBox.Show("Game over!");
                 MainGameTimer.Stop();
                 this.Hide();
-                Form MeinMenu = new MainMenu();
-                MeinMenu.ShowDialog();
+                Form MainMenu = new MainMenu();
+                MainMenu.ShowDialog();
 
             }
             //changes the number next to kills and waves on the Form1.cs [Design]
@@ -243,11 +245,43 @@ namespace Top_Down_Shooter
 
         private void Enemy_Creation()
         {
-
+            PictureBox Enemy = new PictureBox(); //creates picturebox for enemy to be drawn
+            Enemy.BackColor =Color.Transparent; 
+            Enemy.Tag = "enemy"; //makes the game identify what the picturebox is - similar with the bullet class
+            Enemy.Image = Properties.Resources.Enemy_Down;
+            Enemy.Size = new Size(150, 150);//sets the enemy image down as default
+            Enemy.SizeMode = PictureBoxSizeMode.StretchImage;
+            Enemy.Left = randnum.Next(0, this.ClientSize.Width - Enemy.Width); //randomises the left position of the enemy within the screen width
+            Enemy.Top = randnum.Next(50, this.ClientSize.Height - Enemy.Height); //randomises the top position of the enemy within the screen height
+            this.Controls.Add(Enemy); //adds the enemy to the form so it can be seen on the screen
+            EnemyList.Add(Enemy); //adds the enemy to a list so that it can be managed with other enemies in the game 
+            Shooter_User.BringToFront(); //makes it so the player picturebox is infront of the enemy - on the off chance the enemy spawns ontop of the player, the sprite is still visible
         }
 
         private void ResetGame()
         {
+            Shooter_User.Image = Properties.Resources.Shooter_Guy_Up; //resets the player image to the default one
+            
+            for (int i = 0; i < EnemyList.Count; i++) //removes all the enemies from the form and the enemy list so that the game can be restarted without any enemies on the screen
+            {
+                this.Controls.Remove(EnemyList[i]);
+            }   
+            
+            EnemyList.Clear(); //clears the enemy list
+            for (int i = 0; i < 5;  i++) //Doesn't allow more than 5 zombies on a screen
+            {
+                Enemy_Creation();
+            }
+
+            Go_up = false; 
+            Go_down= false;
+            Go_left = false;
+            Go_right = false;
+
+            PlayerHealth = 100; //resets player health to 100
+            Kills = 0; //resets kills to 0
+            waves = 0; //resets waves to 0
+            MainGameTimer.Start();
 
         }
 
