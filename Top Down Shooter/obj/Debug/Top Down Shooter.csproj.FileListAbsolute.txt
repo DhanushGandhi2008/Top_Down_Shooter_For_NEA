@@ -135,3 +135,23 @@ C:\Users\cheta\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\
 C:\Users\cheta\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.CoreCompileInputs.cache
 C:\Users\cheta\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.exe
 C:\Users\cheta\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.pdb
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\bin\Debug\Top Down Shooter.exe.config
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\bin\Debug\Top Down Shooter.exe
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\bin\Debug\Top Down Shooter.pdb
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.AssemblyReference.cache
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top Down Shooter.exe.config
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Interop.WMLSS.dll
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Interop.WMPDXMLib.dll
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Interop.WMPLauncher.dll
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Interop.WMPLib.dll
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.ResolveComReference.cache
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top Down Shooter.g.resources
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top_Down_Shooter.Level1.resources
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top_Down_Shooter.MainMenu.resources
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top_Down_Shooter.Properties.Resources.resources
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top_Down_Shooter.Settings_Menu.resources
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.GenerateResource.cache
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.CoreCompileInputs.cache
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top Down Shooter.exe
+C:\Users\240909\OneDrive - wqeic.ac.uk\Computer Science\NEA\Program\Top Down Shooter\obj\Debug\Top Down Shooter.pdb

@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
 using System.Runtime.InteropServices;
+using System.Threading;
+using System.Drawing.Text;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Top_Down_Shooter
 {
@@ -21,8 +24,8 @@ namespace Top_Down_Shooter
         bool isGameOver = false;
         string facing = "up";
         int PlayerHealth = 100;
-        int Speed_Of_Player = 100;
-        int Speead_Of_Enemy = 110;
+        int Speed_Of_Player = 20;
+        int Speed_Of_Enemy = 1;
         int Kills = 0;
         string txtKills;
         int waves;
@@ -35,16 +38,19 @@ namespace Top_Down_Shooter
         public Level1()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
 
             this.WindowState = FormWindowState.Maximized;
+            MessageBox.Show("Welcome to the game! \n\nUse arrow keys to move.\n\nPress Space to shoot.\n\nGood luck!");
             ResetGame();
         }
         //loads up the Level screen
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome to the game! \n\nUse arrow keys to move.\n\nPress Space to shoot.\n\nGood luck!");
+            
 
-        }          
+
+        }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -75,8 +81,8 @@ namespace Top_Down_Shooter
             else
             {
                 isGameOver = true;
-                MessageBox.Show("Game over!");
                 MainGameTimer.Stop();
+                MessageBox.Show("Game over!");
                 this.Hide();
                 Form MainMenu = new MainMenu();
                 MainMenu.ShowDialog();
@@ -154,12 +160,84 @@ namespace Top_Down_Shooter
             {
                 Shooter_User.Top += Speed_Of_Player;
             }
+
+            if (EnemyList.Count <= 0) //spawns a new enemy if there are less than 5 enemies on the screen
+            {   for (int i = 0; i < 5; i++)
+                {
+                    Enemy_Creation();
+                }
+                
+                waves += 1; //adds 1 to the wave count when all the enemies on the screen are killed
+                Speed_Of_Enemy += 1;
+            }
+
+
+
+            foreach (Control x in this.Controls)
+            {
+                if (x is PictureBox && (string)x.Tag == "enemy")
+                {
+                    if (x.Left > Shooter_User.Left)
+                    {
+                        
+                        x.Left -= Speed_Of_Enemy;
+                        ((PictureBox)x).Image = Properties.Resources.Enemy_Left;
+                    }
+                    if (x.Left < Shooter_User.Left)
+                    {
+                        
+                        x.Left += Speed_Of_Enemy;
+                        ((PictureBox)x).Image = Properties.Resources.Enemy_Right;
+                    }
+                    if (x.Top > Shooter_User.Top)
+                    {
+                        
+                        x.Top -= Speed_Of_Enemy;
+                        ((PictureBox)x).Image = Properties.Resources.Enemy_Up;
+                    }
+                    if (x.Top < Shooter_User.Top)
+                    {
+                        
+                        x.Top += Speed_Of_Enemy;
+                        ((PictureBox)x).Image = Properties.Resources.Enemy_Down;
+                    }
+                    
+
+                   
+                  
+
+                    // 4. Check for Player Collision (Damage)
+                    if (x.Bounds.IntersectsWith(Shooter_User.Bounds))
+                    {
+                        
+                        PlayerHealth -= 1; // Enemy is touching the player
+                    }
+
+
+                }
+
+                foreach (Control y in this.Controls)
+                {
+                    if (y is PictureBox && (string)y.Tag == "bullet" && x is PictureBox && (string)x.Tag == "enemy")
+                    {
+                        if (x.Bounds.IntersectsWith(y.Bounds)) //if the bullet hits the enemy, the enemy and bullet are removed from the form and the enemy list
+                        {
+                            Kills += 1; //adds 1 to the kill count
+                            this.Controls.Remove(y);
+                            this.Controls.Remove(x);
+                            EnemyList.Remove((PictureBox)x);
+                        }
+                    }
+                }
+            }
         }
+
+       
 
         //manages player movement
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D)
+            if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D) //Allows player to use WASD aswell as the arrow keys
             {
                 Go_right = true;
                 facing = "right";
@@ -240,7 +318,7 @@ namespace Top_Down_Shooter
             shoot.direction = direction; //shoots bullet in direction player is facing
             shoot.bullet_left = Shooter_User.Left + (Shooter_User.Width/2); //ensures bullet comes out of the player's middle
             shoot.bullet_top = Shooter_User.Top + (Shooter_User.Height/2);// same thing as the previous line of code
-            shoot.Make_Bullet(this); //mgrabs bullet from bullet class and uses it in this form (Level1.cs)
+            shoot.Make_Bullet(this); //grabs bullet from bullet class and uses it in this form (Level1.cs)
         }
 
         private void Enemy_Creation()
@@ -249,13 +327,13 @@ namespace Top_Down_Shooter
             Enemy.BackColor =Color.Transparent; 
             Enemy.Tag = "enemy"; //makes the game identify what the picturebox is - similar with the bullet class
             Enemy.Image = Properties.Resources.Enemy_Down;
-            Enemy.Size = new Size(150, 150);//sets the enemy image down as default
+            Enemy.Size = new Size(100, 100);//sets the enemy image down as default
             Enemy.SizeMode = PictureBoxSizeMode.StretchImage;
             Enemy.Left = randnum.Next(0, this.ClientSize.Width - Enemy.Width); //randomises the left position of the enemy within the screen width
             Enemy.Top = randnum.Next(50, this.ClientSize.Height - Enemy.Height); //randomises the top position of the enemy within the screen height
             this.Controls.Add(Enemy); //adds the enemy to the form so it can be seen on the screen
             EnemyList.Add(Enemy); //adds the enemy to a list so that it can be managed with other enemies in the game 
-            Shooter_User.BringToFront(); //makes it so the player picturebox is infront of the enemy - on the off chance the enemy spawns ontop of the player, the sprite is still visible
+            Enemy.BringToFront(); //makes it so the player picturebox is infront of the enemy - on the off chance the enemy spawns ontop of the player, the sprite is still visible
         }
 
         private void ResetGame()
@@ -270,6 +348,7 @@ namespace Top_Down_Shooter
             EnemyList.Clear(); //clears the enemy list
             for (int i = 0; i < 5;  i++) //Doesn't allow more than 5 zombies on a screen
             {
+                
                 Enemy_Creation();
             }
 
