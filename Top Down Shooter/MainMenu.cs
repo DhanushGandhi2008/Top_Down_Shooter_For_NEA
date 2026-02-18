@@ -55,14 +55,7 @@ namespace Top_Down_Shooter
 
         }
 
-        private void Settings_Label_Click(object sender, EventArgs e)
-        {
-            Mouse_Hover(sender, e);
-            this.Hide();
-            this.Hide();
-            Form Form2 = new Settings_Menu(); //loads up the Settings_Menu form when the Settings label is clicked
-            Form2.ShowDialog();
-        }
+      
     }
 
     

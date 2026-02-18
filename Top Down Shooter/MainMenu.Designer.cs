@@ -31,7 +31,6 @@
             this.Game_Title = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Leaderboard_viewer = new System.Windows.Forms.Label();
-            this.Settings_Label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Game_Title
@@ -81,21 +80,6 @@
             this.Leaderboard_viewer.Text = "See LeaderBoard";
             this.Leaderboard_viewer.Click += new System.EventHandler(this.Leaderboard_viewer_Click);
             // 
-            // Settings_Label
-            // 
-            this.Settings_Label.AutoSize = true;
-            this.Settings_Label.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Settings_Label.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Settings_Label.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Settings_Label.Font = new System.Drawing.Font("Snap ITC", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.Settings_Label.ForeColor = System.Drawing.Color.DarkRed;
-            this.Settings_Label.Location = new System.Drawing.Point(813, 699);
-            this.Settings_Label.Name = "Settings_Label";
-            this.Settings_Label.Size = new System.Drawing.Size(217, 50);
-            this.Settings_Label.TabIndex = 3;
-            this.Settings_Label.Text = "Settings";
-            this.Settings_Label.Click += new System.EventHandler(this.Settings_Label_Click);
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -103,7 +87,6 @@
             this.BackgroundImage = global::Top_Down_Shooter.Properties.Resources.Title_Screen_image1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1483, 805);
-            this.Controls.Add(this.Settings_Label);
             this.Controls.Add(this.Leaderboard_viewer);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Game_Title);
@@ -121,6 +104,5 @@
         private System.Windows.Forms.Label Game_Title;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label Leaderboard_viewer;
-        private System.Windows.Forms.Label Settings_Label;
     }
 }

@@ -29,6 +29,8 @@ namespace Top_Down_Shooter
         int Kills = 0;
         string txtKills;
         int waves;
+
+       
         
         Random randnum = new Random();//will randomise the interval between each zombie spawn
 
@@ -38,7 +40,7 @@ namespace Top_Down_Shooter
         public Level1()
         {
             InitializeComponent();
-            this.DoubleBuffered = true;
+            this.DoubleBuffered = true; // stopped the sprites (and bullet) from flickering when moving across the screen - makes game smoother and more enjoyable.
 
             this.WindowState = FormWindowState.Maximized;
             MessageBox.Show("Welcome to the game! \n\nUse arrow keys to move.\n\nPress Space to shoot.\n\nGood luck!");
@@ -162,11 +164,16 @@ namespace Top_Down_Shooter
             }
 
             if (EnemyList.Count <= 0) //spawns a new enemy if there are less than 5 enemies on the screen
-            {   for (int i = 0; i < 5; i++)
+            {
+                for (int i = 0; i < 5; i++)
                 {
+
                     Enemy_Creation();
+
                 }
-                
+
+
+
                 waves += 1; //adds 1 to the wave count when all the enemies on the screen are killed
                 Speed_Of_Enemy += 1;
             }
@@ -179,37 +186,37 @@ namespace Top_Down_Shooter
                 {
                     if (x.Left > Shooter_User.Left)
                     {
-                        
+
                         x.Left -= Speed_Of_Enemy;
                         ((PictureBox)x).Image = Properties.Resources.Enemy_Left;
                     }
                     if (x.Left < Shooter_User.Left)
                     {
-                        
+
                         x.Left += Speed_Of_Enemy;
                         ((PictureBox)x).Image = Properties.Resources.Enemy_Right;
                     }
                     if (x.Top > Shooter_User.Top)
                     {
-                        
+
                         x.Top -= Speed_Of_Enemy;
                         ((PictureBox)x).Image = Properties.Resources.Enemy_Up;
                     }
                     if (x.Top < Shooter_User.Top)
                     {
-                        
+
                         x.Top += Speed_Of_Enemy;
                         ((PictureBox)x).Image = Properties.Resources.Enemy_Down;
                     }
-                    
 
-                   
-                  
+
+
+
 
                     // 4. Check for Player Collision (Damage)
                     if (x.Bounds.IntersectsWith(Shooter_User.Bounds))
                     {
-                        
+
                         PlayerHealth -= 1; // Enemy is touching the player
                     }
 
@@ -227,7 +234,14 @@ namespace Top_Down_Shooter
                             this.Controls.Remove(x);
                             EnemyList.Remove((PictureBox)x);
                         }
+
+                        if (PlayerHealth <= 50) //changes the colour of the health bar to orange when the player's health is at 50
+                        {
+                            progressBar1.BackColor = Color.Orange;
+                        }
                     }
+
+
                 }
             }
         }
@@ -323,6 +337,7 @@ namespace Top_Down_Shooter
 
         private void Enemy_Creation()
         {
+
             PictureBox Enemy = new PictureBox(); //creates picturebox for enemy to be drawn
             Enemy.BackColor =Color.Transparent; 
             Enemy.Tag = "enemy"; //makes the game identify what the picturebox is - similar with the bullet class
@@ -350,6 +365,8 @@ namespace Top_Down_Shooter
             {
                 
                 Enemy_Creation();
+                
+
             }
 
             Go_up = false; 
