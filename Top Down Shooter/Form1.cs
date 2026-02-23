@@ -165,17 +165,9 @@ namespace Top_Down_Shooter
 
             if (EnemyList.Count <= 0) //spawns a new enemy if there are less than 5 enemies on the screen
             {
-                for (int i = 0; i < 5; i++)
-                {
-
-                    Enemy_Creation();
-
-                }
-
-
-
-                waves += 1; //adds 1 to the wave count when all the enemies on the screen are killed
-                Speed_Of_Enemy += 1;
+                    ResetWave();
+                    waves += 1; //adds 1 to the wave count when all the enemies on the screen are killed
+                    Speed_Of_Enemy += 1;
             }
 
 
@@ -351,7 +343,7 @@ namespace Top_Down_Shooter
             Enemy.BringToFront(); //makes it so the player picturebox is infront of the enemy - on the off chance the enemy spawns ontop of the player, the sprite is still visible
         }
 
-        private void ResetGame()
+        private async Task ResetGame()
         {
             Shooter_User.Image = Properties.Resources.Shooter_Guy_Up; //resets the player image to the default one
             
@@ -365,7 +357,8 @@ namespace Top_Down_Shooter
             {
                 
                 Enemy_Creation();
-                
+                await Task.Delay(randnum.Next(500, 1500));
+
 
             }
 
@@ -378,6 +371,31 @@ namespace Top_Down_Shooter
             Kills = 0; //resets kills to 0
             waves = 0; //resets waves to 0
             MainGameTimer.Start();
+
+        }
+
+        private async Task ResetWave()
+        {
+
+
+           
+
+            EnemyList.Clear(); //clears the enemy list
+            for (int i = 0; i < 5; i++) //Doesn't allow more than 5 zombies on a screen
+            {
+
+                Enemy_Creation();
+                await Task.Delay(randnum.Next(500, 1500));
+
+            }
+
+            Go_up = false;
+            Go_down = false;
+            Go_left = false;
+            Go_right = false;
+
+            
+            
 
         }
 

@@ -90,7 +90,6 @@ C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug
 C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top_Down_Shooter.Level1.resources
 C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top_Down_Shooter.MainMenu.resources
 C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top_Down_Shooter.Properties.Resources.resources
-C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top_Down_Shooter.Settings_Menu.resources
 C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.GenerateResource.cache
 C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.csproj.CoreCompileInputs.cache
 C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top Down Shooter.exe
