@@ -227,14 +227,22 @@ namespace Top_Down_Shooter
                             EnemyList.Remove((PictureBox)x);
                         }
 
-                        if (PlayerHealth <= 50) //changes the colour of the health bar to orange when the player's health is at 50
-                        {
-                            progressBar1.BackColor = Color.Orange;
-                        }
+                       
                     }
 
 
                 }
+            }
+            if (PlayerHealth <= 50) //changes the colour of the health bar to orange when the player's health is at 50
+            {
+                progressBar1.BackColor = Color.Orange;
+            }
+            
+
+            if (PlayerHealth <= 20) //changes the colour of the health bar to red when the player's health is at 20
+            {
+                Speed_Of_Player += 1;// makes player faster so it's easier to escape the zombies when health is low
+                progressBar1.BackColor = Color.Red;
             }
         }
 
@@ -273,8 +281,6 @@ namespace Top_Down_Shooter
                 facing = "up";
                 Shooter_User.Image = Properties.Resources.Shooter_Guy_Up;
             }
-
-
         }
 
         //allows the game to know when a key isnt pressed so the character doesnt continuously go in one direction even if the key is released
@@ -311,8 +317,7 @@ namespace Top_Down_Shooter
             if ( e.KeyCode == Keys.Space)
             {
                 Shoot(facing);
-            }   
-            
+            }            
                 
             
 
@@ -375,10 +380,7 @@ namespace Top_Down_Shooter
         }
 
         private async Task ResetWave()
-        {
-
-
-           
+        {       
 
             EnemyList.Clear(); //clears the enemy list
             for (int i = 0; i < 5; i++) //Doesn't allow more than 5 zombies on a screen
@@ -392,9 +394,7 @@ namespace Top_Down_Shooter
             Go_up = false;
             Go_down = false;
             Go_left = false;
-            Go_right = false;
-
-            
+            Go_right = false;         
             
 
         }
