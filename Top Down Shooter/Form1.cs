@@ -86,8 +86,11 @@ namespace Top_Down_Shooter
                 MainGameTimer.Stop();
                 MessageBox.Show("Game over!");
                 this.Hide();
-                Form MainMenu = new MainMenu();
-                MainMenu.ShowDialog();
+
+                int currentkills = Kills;
+                int currentwaves = waves;   
+                Form Leaderboard = new Leaderboard_Screen(currentwaves, currentkills);
+                Leaderboard.ShowDialog();
 
             }
             //changes the number next to kills and waves on the Form1.cs [Design]
@@ -163,7 +166,7 @@ namespace Top_Down_Shooter
                 Shooter_User.Top += Speed_Of_Player;
             }
 
-            if (EnemyList.Count <= 0) //spawns a new enemy if there are less than 5 enemies on the screen
+            if (EnemyList.Count == 0) //spawns a new enemy if there are less than 5 enemies on the screen
             {
                     ResetWave();
                     waves += 1; //adds 1 to the wave count when all the enemies on the screen are killed
@@ -205,7 +208,7 @@ namespace Top_Down_Shooter
 
 
 
-                    // 4. Check for Player Collision (Damage)
+                    //checks if player and enemy are in contact with one another
                     if (x.Bounds.IntersectsWith(Shooter_User.Bounds))
                     {
 
