@@ -41,7 +41,10 @@ namespace Top_Down_Shooter
 
         private void Leaderboard_viewer_Click(object sender, EventArgs e)
         {
-
+            Mouse_Hover(sender, e); //makes the label change colour when hovered over
+            this.Hide();
+            Form Leaderboard = new Leaderboard_Screen(); //loads up the leaderboard form when the Leaderboard label is clicked
+            Leaderboard.ShowDialog();
         }
 
         private void Mouse_Hover(object sender, EventArgs e)

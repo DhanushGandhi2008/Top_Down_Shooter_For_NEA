@@ -10,23 +10,31 @@ using System.Windows.Forms;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.VisualBasic;
 
 
 namespace Top_Down_Shooter
 {
     public partial class Leaderboard_Screen : Form
     {
+        // Makes a paramaterless constructor so I can view the leaderboard without having to record a previous game's session's waves and kills. 
+        public Leaderboard_Screen()
+        {
+            InitializeComponent();
+            LoadLeaderboard();
+        }
         private string filepath = "TextFile1.txt";
         public Leaderboard_Screen(int waves, int kills)
         {
-            InitializeComponent();
+            
             SaveScore("Player1", waves, kills); 
-
+            
             LoadLeaderboard();
         }
 
         private void SaveScore(string name, int waves, int kills)
         {
+            name = Interaction.InputBox("Enter your name for the leaderboard:", "Name Entry", "Player1");
             // Appends a new line: PlayerName,Waves,Kills
             string line = $"{name},{waves},{kills}";
             File.AppendAllLines(filepath, new[] { line });
@@ -53,6 +61,16 @@ namespace Top_Down_Shooter
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void Game_Title_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Name_Enter_TextChanged(object sender, EventArgs e)
+        {
+            string playerName = Name_Enter.Text;
         }
     }
 

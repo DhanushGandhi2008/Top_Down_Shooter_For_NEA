@@ -193,3 +193,4 @@ C:\Users\240909\source\repos\NEA\Top Down Shooter\obj\Debug\Top Down Shooter.csp
 C:\Users\240909\source\repos\NEA\Top Down Shooter\obj\Debug\Top Down Shooter.exe
 C:\Users\240909\source\repos\NEA\Top Down Shooter\obj\Debug\Top Down Shooter.pdb
 C:\Users\240909\source\repos\NEA\Top Down Shooter\obj\Debug\Top_Down_Shooter.Leaderboard_Screen.resources
+C:\Users\240909\Source\Repos\Top_Down_Shooter_For_NEA\Top Down Shooter\obj\Debug\Top_Down_Shooter.Leaderboard_Screen.resources
