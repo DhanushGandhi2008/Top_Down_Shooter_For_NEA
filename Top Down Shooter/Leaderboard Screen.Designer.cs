@@ -36,7 +36,7 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Game_Title = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ClearLeaderBoardButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,14 +114,18 @@
             this.Game_Title.Text = "Zombie Killer - Leaderboard";
             this.Game_Title.Click += new System.EventHandler(this.Game_Title_Click);
             // 
-            // button1
+            // ClearLeaderBoardButton
             // 
-            this.button1.Location = new System.Drawing.Point(84, 410);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ClearLeaderBoardButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClearLeaderBoardButton.Font = new System.Drawing.Font("Snap ITC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClearLeaderBoardButton.ForeColor = System.Drawing.Color.Crimson;
+            this.ClearLeaderBoardButton.Location = new System.Drawing.Point(47, 397);
+            this.ClearLeaderBoardButton.Name = "ClearLeaderBoardButton";
+            this.ClearLeaderBoardButton.Size = new System.Drawing.Size(152, 127);
+            this.ClearLeaderBoardButton.TabIndex = 2;
+            this.ClearLeaderBoardButton.Text = "Clear leaderboard";
+            this.ClearLeaderBoardButton.UseVisualStyleBackColor = false;
+            this.ClearLeaderBoardButton.Click += new System.EventHandler(this.ClearLeaderBoardButton_Click);
             // 
             // Leaderboard_Screen
             // 
@@ -129,7 +133,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Top_Down_Shooter.Properties.Resources.Title_Screen_image1;
             this.ClientSize = new System.Drawing.Size(1531, 749);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ClearLeaderBoardButton);
             this.Controls.Add(this.Game_Title);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Leaderboard_Screen";
@@ -147,6 +151,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Label Game_Title;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ClearLeaderBoardButton;
     }
 }

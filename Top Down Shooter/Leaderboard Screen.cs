@@ -1,16 +1,17 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
+using System.Collections.Generic;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
+using System.Linq;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.VisualBasic;
+using System.Xml.Linq;
 
 
 namespace Top_Down_Shooter
@@ -68,7 +69,19 @@ namespace Top_Down_Shooter
 
         }
 
-        
+        private void ClearLeaderBoardButton_Click(object sender, EventArgs e)
+        {
+          DialogResult choice = MessageBox.Show("Are you sure you want to clear the leaderboard? This action cannot be undone.", "Confirm Clear", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (choice == DialogResult.Yes)
+            {
+                string password = Interaction.InputBox("Enter password to clear leaderboard field:", "Password Entry", "");
+                if (password == "Password1") // Simple password check to prevent accidental clearing of the leaderboard
+                    File.WriteAllText(filepath, string.Empty);
+                    LoadLeaderboard();
+               if (password != "Password1")
+                    MessageBox.Show("Incorrect password. Leaderboard not cleared.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 
 
