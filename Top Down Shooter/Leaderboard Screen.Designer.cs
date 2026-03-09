@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Game_Title = new System.Windows.Forms.Label();
             this.ClearLeaderBoardButton = new System.Windows.Forms.Button();
+            this.BackToMainMenu = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,13 +62,13 @@
             // 
             // Column1
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Snap ITC", 20F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Crimson;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Snap ITC", 20F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Crimson;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column1.HeaderText = "Name";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
@@ -75,12 +76,12 @@
             // 
             // Column2
             // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Snap ITC", 20F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Crimson;
-            this.Column2.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Snap ITC", 20F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Crimson;
+            this.Column2.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column2.HeaderText = "Waves";
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
@@ -88,12 +89,12 @@
             // 
             // Column3
             // 
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Snap ITC", 20F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Crimson;
-            this.Column3.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Snap ITC", 20F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Crimson;
+            this.Column3.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column3.HeaderText = "Kills";
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
@@ -127,12 +128,28 @@
             this.ClearLeaderBoardButton.UseVisualStyleBackColor = false;
             this.ClearLeaderBoardButton.Click += new System.EventHandler(this.ClearLeaderBoardButton_Click);
             // 
+            // BackToMainMenu
+            // 
+            this.BackToMainMenu.AutoSize = true;
+            this.BackToMainMenu.BackColor = System.Drawing.SystemColors.Desktop;
+            this.BackToMainMenu.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.BackToMainMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BackToMainMenu.Font = new System.Drawing.Font("Snap ITC", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackToMainMenu.ForeColor = System.Drawing.Color.DarkRed;
+            this.BackToMainMenu.Location = new System.Drawing.Point(12, 681);
+            this.BackToMainMenu.Name = "BackToMainMenu";
+            this.BackToMainMenu.Size = new System.Drawing.Size(381, 44);
+            this.BackToMainMenu.TabIndex = 3;
+            this.BackToMainMenu.Text = "Back To MainMenu";
+            this.BackToMainMenu.Click += new System.EventHandler(this.BackToMainMenu_Click);
+            // 
             // Leaderboard_Screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Top_Down_Shooter.Properties.Resources.Title_Screen_image1;
             this.ClientSize = new System.Drawing.Size(1531, 749);
+            this.Controls.Add(this.BackToMainMenu);
             this.Controls.Add(this.ClearLeaderBoardButton);
             this.Controls.Add(this.Game_Title);
             this.Controls.Add(this.dataGridView1);
@@ -152,5 +169,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Label Game_Title;
         private System.Windows.Forms.Button ClearLeaderBoardButton;
+        private System.Windows.Forms.Label BackToMainMenu;
     }
 }

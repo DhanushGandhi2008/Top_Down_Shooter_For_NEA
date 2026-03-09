@@ -82,6 +82,13 @@ namespace Top_Down_Shooter
                     MessageBox.Show("Incorrect password. Leaderboard not cleared.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void BackToMainMenu_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form mainmenu = new MainMenu();
+            mainmenu.ShowDialog();
+        }
     }
 
 
