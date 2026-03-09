@@ -29,6 +29,7 @@ namespace Top_Down_Shooter
         int Kills = 0;
         string txtKills;
         int waves;
+        string name = ""; //made empty variable to be able to pass onto the leaderboard stopping an exception catch
 
        
         
@@ -86,10 +87,10 @@ namespace Top_Down_Shooter
                 MainGameTimer.Stop();
                 MessageBox.Show("Game over!");
                 this.Hide();
-
+                string currentname = name;
                 int currentkills = Kills;
                 int currentwaves = waves;   
-                Form Leaderboard = new Leaderboard_Screen(currentwaves, currentkills);
+                Form Leaderboard = new Leaderboard_Screen(currentname, currentwaves, currentkills);
                 Leaderboard.ShowDialog();
 
             }

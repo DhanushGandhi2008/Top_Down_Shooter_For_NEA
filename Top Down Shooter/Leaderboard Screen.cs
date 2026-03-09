@@ -24,10 +24,10 @@ namespace Top_Down_Shooter
             LoadLeaderboard();
         }
         private string filepath = "TextFile1.txt";
-        public Leaderboard_Screen(int waves, int kills)
+        public Leaderboard_Screen(string name, int waves, int kills)
         {
-            
-            SaveScore("Player1", waves, kills); 
+            InitializeComponent();
+            SaveScore(name, waves, kills); 
             
             LoadLeaderboard();
         }
@@ -55,7 +55,7 @@ namespace Top_Down_Shooter
                 }
             }
 
-            dataGridView1.Sort(dataGridView1.Columns[2], ListSortDirection.Descending); 
+             
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -68,10 +68,7 @@ namespace Top_Down_Shooter
 
         }
 
-        private void Name_Enter_TextChanged(object sender, EventArgs e)
-        {
-            string playerName = Name_Enter.Text;
-        }
+        
     }
 
 
